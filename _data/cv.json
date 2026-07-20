@@ -1,152 +1,92 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "吴文彬",
+    "label": "华中科技大学电子信息专业硕士研究生",
+    "email": "u202210645@hust.edu.cn",
+    "phone": "153-7712-5548",
+    "website": "https://evolve1277.github.io",
+    "summary": "研究兴趣包括计算机视觉、声纹智能与具身世界模型。",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "武汉",
+      "region": "湖北",
+      "countryCode": "中国"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "Evolve1277",
+        "url": "https://github.com/Evolve1277"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "name": "墨奇智能",
+      "position": "具身世界动作模型研究（远程）",
+      "company": "墨奇智能",
+      "startDate": "2025-12",
+      "endDate": "2026-06",
+      "summary": "算法预研，面向 Calvin 与 RoboTwin 数据集开展具身世界模型实验。",
+      "highlights": [
+        "搭建标准化数据加载流水线和 RoboTwin2.0 仿真评测环境。",
+        "通过混合精度、模型编译、KV cache、pin_memory 优化训练，实现 92% 平均成功率。"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
+      "institution": "华中科技大学",
+      "area": "电子信息（硕士）",
+      "studyType": "硕士",
+      "startDate": "2026-09",
+      "endDate": "2029-06",
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "institution": "华中科技大学",
+      "area": "电子信息工程（本科）",
+      "studyType": "本科",
+      "startDate": "2022-09",
+      "endDate": "2026-06",
+      "gpa": "专业排名 1/20",
+      "courses": [
+        "C 程序设计（95）",
+        "机器学习（95）",
+        "软件工程（95）",
+        "智能机器人技术（95）",
+        "深度学习（90）"
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": [
+    {
+      "name": "编程与系统",
+      "keywords": ["C", "Python", "Java", "Linux", "Git"]
+    },
+    {
+      "name": "机器学习",
+      "keywords": ["计算机视觉", "弱监督目标检测", "自监督学习", "声纹异常检测", "说话人识别"]
+    },
+    {
+      "name": "工具与语言",
+      "keywords": ["Diffusers", "Claude Code", "Codex", "CET-6 605 分"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "英语",
+      "fluency": "CET-6 605 分"
+    }
+  ],
+  "interests": [
+    {
+      "name": "研究方向",
+      "keywords": ["计算机视觉", "声纹智能", "具身世界模型"]
+    }
+  ],
   "references": [],
-  "publications": [
-    {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "publications": [],
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }

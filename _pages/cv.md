@@ -1,64 +1,64 @@
 ---
 layout: archive
-title: "CV"
+title: "个人简历"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+<p class="cv-download"><a class="btn btn--primary" href="{{ base_path }}/files/cv.pdf"><i class="fas fa-file-arrow-down" aria-hidden="true"></i> 下载 PDF 简历</a></p>
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## 吴文彬
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+武汉，湖北 · <a href="mailto:u202210645@hust.edu.cn">u202210645@hust.edu.cn</a> · 153-7712-5548 · <a href="https://github.com/Evolve1277">github.com/Evolve1277</a>
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## 教育背景
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- **华中科技大学 · 电子信息（硕士）** ｜ 2026.09 - 2029.06
+- **华中科技大学 · 电子信息工程（本科）** ｜ 2022.09 - 2026.06
+  - 专业排名 1/20；CET-6 605 分
+  - 核心课程：C 程序设计（95）、机器学习（95）、软件工程（95）、智能机器人技术（95）、深度学习（90）
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## 项目经历
+
+### 基于自监督视觉 Transformer 的弱监督目标检测研究
+
+**本科生毕业设计** ｜ 2026.02 - 2026.06 ｜ 已结题
+
+融合 DINOv3 自监督预训练模型，设计多源 CAM 融合极值种子提取和空间网格采样补充策略，构建局部种子余弦相似度图与全局语义相似度图，使用自适应 Otsu 多阈值分割生成候选提议框；基于 OICR 多示例学习框架训练，在 VOC 2007 上较基线 mAP 提升 12.3 个百分点。
+
+### 换流变压器声纹异常检测与故障分类算法研究
+
+**国家电网开放基金项目** ｜ 2024.09 - 2025.06 ｜ 初步产出
+
+搭建声纹采集模块并完成软硬件联调，基于 RTP 实时传输数据，使用 MFCC 提取特征，以正常样本训练 VAE 无监督异常检测模型，结合噪声分离算法完成在线部署与调试，检测准确率达 99%；获挑战杯全国特等奖，相关论文发表于 <i>Electric Power Systems Research</i>。
+
+### 基于深度学习的声纹识别算法研究与系统实现
+
+**省级大学生创新训练项目** ｜ 2024.02 - 2024.06 ｜ 结题优秀
+
+面向 1 秒短时、任意文本语音输入，提取 Fbank 特征并采用轻量残差模型与孪生网络判别；参与开发前端页面和后端数据存储，协助硬件部署验证。
+
+## 实习经历
+
+### 墨奇智能（远程） · 具身世界动作模型研究
+
+2025.12 - 2026.06 ｜ 算法预研
+
+调研 Cosmos Policy、DreamZero、Fast-WAM、Motus 等主流具身世界模型，完成 Calvin 与 RoboTwin 数据集处理和标准化数据加载流水线；复现 VPP、Ge-act 等工作，比较不同 Transformer 层数、去噪步数和微调策略，使用混合精度、模型编译、KV cache、pin_memory 优化训练速度，搭建 RoboTwin2.0 仿真评测环境，实现 92% 平均成功率。
+
+## 竞赛与荣誉
+
+- 第十九届“挑战杯”全国大学生课外学术科技作品竞赛 · 国家级特等奖
+- 第九届华为 ICT 大赛 · 国家级二等奖
+- 第十八届中国大学生计算机设计大赛 · 国家级二等奖
+- 第十六届蓝桥杯软件与信息技术大赛 · 国家级三等奖
+- 第十届华为软件精英挑战赛 · 省级二等奖
+- 国家奖学金、校三好学生标兵、校本科特优生、校优秀毕业生
+
+## 技能特长
+
+- **编程与系统：** C、Python、Java、Linux、Git
+- **机器学习：** 计算机视觉、弱监督目标检测、自监督学习、声纹异常检测、说话人识别
+- **工具与语言：** Diffusers、Claude Code、Codex；英语 CET-6 605 分
