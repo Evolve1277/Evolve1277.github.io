@@ -22,13 +22,13 @@ author_profile: true
 
 <div class="resume-entry">
   <div class="resume-entry__heading"><strong>华中科技大学，电子信息工程，工学学士</strong><span>2022 - 2026</span></div>
-  <p>专业排名 1/20。</p>
+  <p>专业排名第一。</p>
 </div>
 
 # 荣誉奖项
 {: #honors-and-awards}
 
-- 第十九届“挑战杯”全国大学生课外学术科技作品竞赛，国家级特等奖
+- 第十九届“挑战杯”全国大学生课外学术科技作品竞赛，国家级特等奖，团队总排名第二
 - 第九届华为 ICT 大赛，国家级二等奖
 - 第十八届中国大学生计算机设计大赛，国家级二等奖
 - 第十六届蓝桥杯软件与信息技术大赛，国家级三等奖
@@ -38,7 +38,7 @@ author_profile: true
 # 发表论文
 {: #publications}
 
-{% comment %}论文条目将在此处添加。{% endcomment %}
+敬请期待。
 
 # 研究经历
 {: #research-experience}
@@ -50,7 +50,7 @@ author_profile: true
 
 <div class="resume-entry">
   <div class="resume-entry__heading"><strong>换流变压器声纹异常检测</strong><span>2024.09 - 2025.06</span></div>
-  <p>研发基于 VAE 的声纹异常检测方法，检测准确率达到 99%；项目获“挑战杯”全国特等奖，相关成果发表于 <i>Electric Power Systems Research</i>。</p>
+  <p>研发基于 VAE 的声纹异常检测方法，检测准确率达到 99%；项目获“挑战杯”全国特等奖，团队总排名第二，相关成果发表于 <i>Electric Power Systems Research</i>。</p>
 </div>
 
 <div class="resume-entry">

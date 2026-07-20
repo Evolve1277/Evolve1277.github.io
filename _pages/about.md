@@ -25,13 +25,13 @@ My research focuses on action-conditioned world models, learning policies from m
 
 <div class="resume-entry">
   <div class="resume-entry__heading"><strong>Bachelor of Engineering in Electronic Information Engineering, Huazhong University of Science and Technology</strong><span>2022 - 2026</span></div>
-  <p>Ranked 1st in the cohort (1/20).</p>
+  <p>Ranked 1st in the major.</p>
 </div>
 
 # Honors and Awards
 {: #honors-and-awards}
 
-- National Grand Prize, 19th Challenge Cup National Undergraduate Extracurricular Academic Science and Technology Competition
+- National Grand Prize (team placed 2nd overall), 19th Challenge Cup National Undergraduate Extracurricular Academic Science and Technology Competition
 - National Second Prize, 9th Huawei ICT Competition
 - National Second Prize, 18th Chinese Collegiate Computing Competition
 - National Third Prize, 16th Lanqiao Cup National Software and Information Technology Competition
@@ -41,7 +41,7 @@ My research focuses on action-conditioned world models, learning policies from m
 # Publications
 {: #publications}
 
-{% comment %}Publication entries will be added here.{% endcomment %}
+Sooner or later.
 
 # Research Experience
 {: #research-experience}
@@ -53,7 +53,7 @@ My research focuses on action-conditioned world models, learning policies from m
 
 <div class="resume-entry">
   <div class="resume-entry__heading"><strong>Acoustic Anomaly Detection for Converter Transformers</strong><span>Sep. 2024 - Jun. 2025</span></div>
-  <p>Developed a VAE-based acoustic anomaly detector with 99% detection accuracy; the project received the National Grand Prize in the Challenge Cup and contributed to a publication in <i>Electric Power Systems Research</i>.</p>
+  <p>Developed a VAE-based acoustic anomaly detector with 99% detection accuracy; the project received the National Grand Prize in the Challenge Cup, with the team placing 2nd overall, and contributed to a publication in <i>Electric Power Systems Research</i>.</p>
 </div>
 
 <div class="resume-entry">
