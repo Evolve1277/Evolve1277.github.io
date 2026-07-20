@@ -28,7 +28,7 @@ author_profile: true
 # 荣誉奖项
 {: #honors-and-awards}
 
-- 第十九届“挑战杯”全国大学生课外学术科技作品竞赛，国家级特等奖（本人在项目团队中排位第二）
+- 第十九届“挑战杯”全国大学生课外学术科技作品竞赛，国家级特等奖（排位第二）
 - 第九届华为 ICT 大赛，国家级二等奖
 - 第十八届中国大学生计算机设计大赛，国家级二等奖
 - 第十六届蓝桥杯软件与信息技术大赛，国家级三等奖
@@ -49,8 +49,8 @@ author_profile: true
 </div>
 
 <div class="resume-entry">
-  <div class="resume-entry__heading"><strong>珩听——变压器声纹故障诊断系统</strong><span>2024.09 - 2025.06</span></div>
-  <p>参与研发面向电力变压器的“AI+声纹”无人化、非接触、全天候智能巡检系统。系统融合双路径环境噪声分离、无监督设备声纹异常检测和小样本故障分类，形成“采集-分析-展示”一体化诊断平台。项目成果发表 SCI 论文一篇，通过第三方检测，并与中国电力科学研究院开展产学研合作。</p>
+  <div class="resume-entry__heading"><strong>换流变压器声纹异常检测</strong><span>2024.09 - 2025.06</span></div>
+  <p>国家电网合作项目。参与研发融合双路径环境噪声精准分离算法、无监督设备声纹异常检测算法和小样本声纹故障多分类算法的声纹故障诊断系统，相关成果发表于 <i>Electric Power Systems Research</i>。</p>
 </div>
 
 <div class="resume-entry">

@@ -31,7 +31,7 @@ My research focuses on action-conditioned world models, learning policies from m
 # Honors and Awards
 {: #honors-and-awards}
 
-- National Grand Prize, 19th Challenge Cup National Undergraduate Extracurricular Academic Science and Technology Competition (second-listed team member)
+- National Grand Prize, 19th Challenge Cup National Undergraduate Extracurricular Academic Science and Technology Competition (second-listed)
 - National Second Prize, 9th Huawei ICT Competition
 - National Second Prize, 18th Chinese Collegiate Computing Competition
 - National Third Prize, 16th Lanqiao Cup National Software and Information Technology Competition
@@ -52,8 +52,8 @@ Sooner or later.
 </div>
 
 <div class="resume-entry">
-  <div class="resume-entry__heading"><strong>Hengting: Acoustic Fault Diagnosis System for Power Transformers</strong><span>Sep. 2024 - Jun. 2025</span></div>
-  <p>Contributed to the development of Hengting, an AI-powered, non-contact acoustic inspection system for power transformers. The system integrates dual-path environmental noise separation, unsupervised acoustic anomaly detection, and few-shot fault classification into an end-to-end acquisition-analysis-visualization platform. The project produced one SCI-indexed paper, passed independent third-party testing, and supported industry-academic collaboration with China Electric Power Research Institute.</p>
+  <div class="resume-entry__heading"><strong>Acoustic Anomaly Detection for Converter Transformers</strong><span>Sep. 2024 - Jun. 2025</span></div>
+  <p>State Grid collaborative project. Contributed to an acoustic fault diagnosis system integrating a precise dual-path environmental noise separation algorithm, an unsupervised equipment acoustic anomaly detection algorithm, and a few-shot multi-class acoustic fault classification algorithm; the project resulted in an SCI-indexed publication in <i>Electric Power Systems Research</i>.</p>
 </div>
 
 <div class="resume-entry">
