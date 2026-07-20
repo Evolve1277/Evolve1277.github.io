@@ -35,7 +35,6 @@ My research focuses on action-conditioned world models, learning policies from m
 - National Second Prize, 9th Huawei ICT Competition
 - National Second Prize, 18th Chinese Collegiate Computing Competition
 - National Third Prize, 16th Lanqiao Cup National Software and Information Technology Competition
-- Provincial Second Prize, 10th Huawei Software Elite Challenge
 - National Scholarship; HUST Outstanding Student Model; HUST Distinguished Undergraduate; HUST Outstanding Graduate
 
 # Publications
@@ -53,12 +52,12 @@ Sooner or later.
 
 <div class="resume-entry">
   <div class="resume-entry__heading"><strong>Acoustic Anomaly Detection for Converter Transformers</strong><span>Sep. 2024 - Jun. 2025</span></div>
-  <p>State Grid collaborative project. Contributed to an acoustic fault diagnosis system integrating a precise dual-path environmental noise separation algorithm, an unsupervised equipment acoustic anomaly detection algorithm, and a few-shot multi-class acoustic fault classification algorithm; the project resulted in an SCI-indexed publication in <i>Electric Power Systems Research</i>.</p>
+  <p>State Grid collaborative project. Contributed to dual-path environmental noise separation, unsupervised acoustic anomaly detection, and few-shot fault classification algorithms; the project resulted in an SCI-indexed publication in <i>Electric Power Systems Research</i>.</p>
 </div>
 
 <div class="resume-entry">
   <div class="resume-entry__heading"><strong>Short-Utterance Speaker Recognition</strong><span>Feb. 2024 - Jun. 2024</span></div>
-  <p>Developed a text-independent speaker recognition system for one-second utterances using a lightweight residual encoder and Siamese learning.</p>
+  <p>Developed a text-independent speaker recognition system for one-second utterances using a lightweight residual encoder and Siamese learning. The project received an Excellent rating at its final review.</p>
 </div>
 
 # Industry Research Experience

@@ -32,7 +32,6 @@ author_profile: true
 - 第九届华为 ICT 大赛，国家级二等奖
 - 第十八届中国大学生计算机设计大赛，国家级二等奖
 - 第十六届蓝桥杯软件与信息技术大赛，国家级三等奖
-- 第十届华为软件精英挑战赛，省级二等奖
 - 国家奖学金、华中科技大学三好学生标兵、本科特优生、优秀毕业生
 
 # 发表论文
@@ -50,12 +49,12 @@ author_profile: true
 
 <div class="resume-entry">
   <div class="resume-entry__heading"><strong>换流变压器声纹异常检测</strong><span>2024.09 - 2025.06</span></div>
-  <p>国家电网合作项目。参与研发融合双路径环境噪声精准分离算法、无监督设备声纹异常检测算法和小样本声纹故障多分类算法的声纹故障诊断系统，相关成果发表于 <i>Electric Power Systems Research</i>。</p>
+  <p>国家电网合作项目。参与研发双路径环境噪声分离算法、无监督声纹异常检测算法和小样本故障分类算法，相关成果发表于 <i>Electric Power Systems Research</i>。</p>
 </div>
 
 <div class="resume-entry">
   <div class="resume-entry__heading"><strong>短时语音说话人识别</strong><span>2024.02 - 2024.06</span></div>
-  <p>基于轻量残差编码器与孪生学习，研发面向一秒短时语音的文本无关说话人识别系统。</p>
+  <p>基于轻量残差编码器与孪生学习，研发面向一秒短时语音的文本无关说话人识别系统，项目终期结题优秀。</p>
 </div>
 
 # 科研实习
