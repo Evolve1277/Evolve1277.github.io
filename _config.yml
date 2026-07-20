@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Wenbin Wu"
 title_separator          : "-"
 name                     : &name "Wenbin Wu"
-description              : &description "Academic homepage of Wenbin Wu, a Master of Engineering student working on computer vision, acoustic intelligence, and embodied AI."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Academic homepage of Wenbin Wu, focusing on embodied intelligence and world models for robotic manipulation."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://evolve1277.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -27,7 +27,9 @@ author:
   name             : "Wenbin Wu"
   pronouns         : # example: "she/her"  
   bio              : "Master of Engineering student at Huazhong University of Science and Technology"
+  bio_zh           : "华中科技大学电子信息专业工程硕士研究生"
   location         : "Wuhan, China"
+  location_zh      : "中国 · 武汉"
   employer         :
   uri              : # URL
   email            : "1277217687@qq.com"
@@ -144,7 +146,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : "profile.jpg"  # Social media default site image
-og_description           : "Academic homepage of Wenbin Wu, a Master of Engineering student working on computer vision, acoustic intelligence, and embodied AI."
+og_description           : "Academic homepage of Wenbin Wu, focusing on embodied intelligence and world models for robotic manipulation."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

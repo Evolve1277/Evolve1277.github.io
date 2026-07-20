@@ -1,7 +1,8 @@
 ---
 permalink: /
 title: ""
-excerpt: "Master of Engineering student at Huazhong University of Science and Technology, with research interests in computer vision, acoustic intelligence, and embodied AI."
+lang: en
+excerpt: "Master of Engineering student at Huazhong University of Science and Technology, focusing on embodied intelligence and world models for robotic manipulation."
 author_profile: true
 redirect_from:
   - /about/
@@ -10,41 +11,12 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-<p class="profile-lead">I am a Master of Engineering student in Electronic Information at <a href="https://www.hust.edu.cn/">Huazhong University of Science and Technology</a> (HUST). I received my Bachelor of Engineering in Electronic Information Engineering from HUST in 2026, ranking first in my cohort.</p>
+<p class="profile-lead">I am a Master of Engineering student in Electronic Information at <a href="https://www.hust.edu.cn/">Huazhong University of Science and Technology</a> (HUST), advised by <a href="https://xwcv.github.io/">Prof. Xinggang Wang</a> and <a href="https://eic.hust.edu.cn/professor/liuwenyu/">Prof. Wenyu Liu</a>. I work with the <a href="https://hustvl.github.io/">HUST Vision Lab</a> on embodied intelligence.</p>
 
-My research explores how intelligent systems learn robust representations from visual, acoustic, and embodied interaction data. I am particularly interested in weakly supervised learning, self-supervised representation learning, acoustic anomaly detection, and world models for robotic decision-making.
-
-# Publications
-
-{% comment %}Publication entries will be added here.{% endcomment %}
-
-# Research Experience
-
-<div class="resume-entry">
-  <div class="resume-entry__heading"><strong>Weakly Supervised Object Detection with Self-Supervised Vision Transformers</strong><span>Feb. 2026 - Jun. 2026</span></div>
-  <p>Undergraduate thesis. Developed a proposal-generation framework that combines DINOv3 representations with multi-source class activation maps, extremal seed extraction, spatial grid sampling, and adaptive Otsu thresholding. Integrated the resulting proposals into an OICR multiple-instance learning pipeline and improved mAP on PASCAL VOC 2007 by 12.3 percentage points over the baseline. Conducted ablation studies, comparative experiments, and qualitative visualization analyses.</p>
-</div>
-
-<div class="resume-entry">
-  <div class="resume-entry__heading"><strong>Acoustic Anomaly Detection and Fault Classification for Converter Transformers</strong><span>Sep. 2024 - Jun. 2025</span></div>
-  <p>State Grid Open Fund project. Built and validated an acoustic data acquisition pipeline with real-time RTP transmission, extracted MFCC features, and developed a VAE-based unsupervised anomaly detector trained exclusively on normal samples. The deployed system achieved 99% detection accuracy and incorporated noise separation for online inference. The project received the National Grand Prize in the Challenge Cup competition and contributed to a publication in <i>Electric Power Systems Research</i>.</p>
-</div>
-
-<div class="resume-entry">
-  <div class="resume-entry__heading"><strong>Deep-Learning-Based Short-Utterance Speaker Recognition</strong><span>Feb. 2024 - Jun. 2024</span></div>
-  <p>Provincial Undergraduate Innovation Program. Investigated text-independent speaker recognition from one-second utterances using Fbank features, a lightweight residual encoder, and a Siamese learning architecture. Contributed to the web interface, backend data management, and hardware deployment. The project received an Excellent rating at its final review.</p>
-</div>
-
-# Honors and Awards
-
-- National Grand Prize, 19th Challenge Cup National Undergraduate Extracurricular Academic Science and Technology Competition
-- National Second Prize, 9th Huawei ICT Competition
-- National Second Prize, 18th Chinese Collegiate Computing Competition
-- National Third Prize, 16th Lanqiao Cup National Software and Information Technology Competition
-- Provincial Second Prize, 10th Huawei Software Elite Challenge
-- National Scholarship; HUST Outstanding Student Model; HUST Distinguished Undergraduate; HUST Outstanding Graduate
+My research focuses on action-conditioned world models, learning policies from multimodal interaction, and generalizable robotic manipulation in dynamic environments.
 
 # Education
+{: #education}
 
 <div class="resume-entry">
   <div class="resume-entry__heading"><strong>Master of Engineering in Electronic Information, Huazhong University of Science and Technology</strong><span>2026 - 2029</span></div>
@@ -53,13 +25,47 @@ My research explores how intelligent systems learn robust representations from v
 
 <div class="resume-entry">
   <div class="resume-entry__heading"><strong>Bachelor of Engineering in Electronic Information Engineering, Huazhong University of Science and Technology</strong><span>2022 - 2026</span></div>
-  <p>Ranked 1st out of 20 students. Selected coursework includes Machine Learning, Software Engineering, Intelligent Robotics, Deep Learning, and C Programming.</p>
+  <p>Ranked 1st in the cohort (1/20).</p>
+</div>
+
+# Honors and Awards
+{: #honors-and-awards}
+
+- National Grand Prize, 19th Challenge Cup National Undergraduate Extracurricular Academic Science and Technology Competition
+- National Second Prize, 9th Huawei ICT Competition
+- National Second Prize, 18th Chinese Collegiate Computing Competition
+- National Third Prize, 16th Lanqiao Cup National Software and Information Technology Competition
+- Provincial Second Prize, 10th Huawei Software Elite Challenge
+- National Scholarship; HUST Outstanding Student Model; HUST Distinguished Undergraduate; HUST Outstanding Graduate
+
+# Publications
+{: #publications}
+
+{% comment %}Publication entries will be added here.{% endcomment %}
+
+# Research Experience
+{: #research-experience}
+
+<div class="resume-entry">
+  <div class="resume-entry__heading"><strong>Weakly Supervised Object Detection with Self-Supervised Vision Transformers</strong><span>Feb. 2026 - Jun. 2026</span></div>
+  <p>Developed a DINOv3-based proposal-generation method for weakly supervised detection, improving mAP on PASCAL VOC 2007 by 12.3 percentage points over the baseline.</p>
+</div>
+
+<div class="resume-entry">
+  <div class="resume-entry__heading"><strong>Acoustic Anomaly Detection for Converter Transformers</strong><span>Sep. 2024 - Jun. 2025</span></div>
+  <p>Developed a VAE-based acoustic anomaly detector with 99% detection accuracy; the project received the National Grand Prize in the Challenge Cup and contributed to a publication in <i>Electric Power Systems Research</i>.</p>
+</div>
+
+<div class="resume-entry">
+  <div class="resume-entry__heading"><strong>Short-Utterance Speaker Recognition</strong><span>Feb. 2024 - Jun. 2024</span></div>
+  <p>Developed a text-independent speaker recognition system for one-second utterances using a lightweight residual encoder and Siamese learning.</p>
 </div>
 
 # Industry Research Experience
+{: #industry-research-experience}
 
 <div class="resume-entry">
   <div class="resume-entry__heading"><strong>Research Intern, Moqi Intelligence (Remote)</strong><span>Dec. 2025 - Jun. 2026</span></div>
-  <p>Extended the Genie Envisioner/GE-Act codebase for action-conditioned world modeling and robotic manipulation. Built LeRobot-compatible multi-view data pipelines for CALVIN, RoboTwin2.0, and RoboDojo with relative joint actions, six-frame observation histories, 17-frame future sequences, and 102-step action chunks. Diagnosed and corrected an off-by-one indexing error between state, action, and future-video supervision, and aligned validation sampling with the corrected training contract.</p>
-  <p>Developed action-safe joint video-action training with history-only action cross-attention, causal video masking, terminal-hold handling at episode boundaries, and cosine-scheduled replacement of ground-truth conditions with model-generated action proposals. Added deployment-aligned two-step action rollout, controllable video-to-action gradient flow, action-intervention experiments, and aligned/sliding-window FVD evaluation. Optimized distributed training with bfloat16, TF32, DeepSpeed ZeRO-2, metadata caching, and data-loader tuning, and established a RoboTwin2.0 simulation benchmark with a 92% average task success rate.</p>
+  <p>Extended Genie Envisioner/GE-Act into an action-conditioned world-action modeling framework for robotic manipulation. Identified and corrected state-action-video misalignment, and introduced an action-safe joint training scheme that progressively replaces ground-truth conditions with model-generated actions while preserving causal history and stable gradient flow.</p>
+  <p>Developed deployment-aligned rollout and action-intervention evaluation for RoboTwin2.0 and RoboDojo. The resulting system achieved a 92% average task success rate on RoboTwin2.0.</p>
 </div>

@@ -17,6 +17,11 @@
 {% endif %}
 
 <div class="page__footer-copyright">
-  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.<br />
-  Last updated {{ "now" | date: '%Y-%m-%d' }}. <a href="/sitemap/">Sitemap</a>
+  {% if page.lang contains "zh" %}
+    &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}。由 <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> 驱动。<br />
+    最后更新于 {{ "now" | date: '%Y-%m-%d' }}。<a href="/sitemap/">网站地图</a>
+  {% else %}
+    &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>.<br />
+    Last updated {{ "now" | date: '%Y-%m-%d' }}. <a href="/sitemap/">Sitemap</a>
+  {% endif %}
 </div>
