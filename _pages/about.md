@@ -1,14 +1,14 @@
 ---
 permalink: /
 title: "Wenbin Wu"
-excerpt: "Incoming M.Eng. student at Huazhong University of Science and Technology, with research interests in computer vision, acoustic intelligence, and embodied AI."
+excerpt: "Master of Engineering student at Huazhong University of Science and Technology, with research interests in computer vision, acoustic intelligence, and embodied AI."
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<p class="profile-lead">I am an incoming M.Eng. student in Electronic Information at Huazhong University of Science and Technology (HUST). I received my B.Eng. in Electronic Information Engineering from HUST in 2026, ranking first in my cohort. My research focuses on learning robust representations from visual, acoustic, and embodied interaction data.</p>
+<p class="profile-lead">I am a Master of Engineering student in Electronic Information at Huazhong University of Science and Technology (HUST). I received my Bachelor of Engineering in Electronic Information Engineering from HUST in 2026, ranking first in my cohort. My research focuses on learning robust representations from visual, acoustic, and embodied interaction data.</p>
 
 ## Research Interests
 
@@ -17,14 +17,19 @@ My interests lie at the intersection of computer vision, acoustic intelligence, 
 ## Education
 
 <div class="resume-entry">
-  <div class="resume-entry__heading"><strong>M.Eng. in Electronic Information, Huazhong University of Science and Technology</strong><span>2026 - 2029</span></div>
-  <p>Incoming graduate student, beginning September 2026.</p>
+  <div class="resume-entry__heading"><strong>Master of Engineering in Electronic Information, Huazhong University of Science and Technology</strong><span>2026 - 2029</span></div>
+  <p>Expected graduation: June 2029.</p>
 </div>
 
 <div class="resume-entry">
-  <div class="resume-entry__heading"><strong>B.Eng. in Electronic Information Engineering, Huazhong University of Science and Technology</strong><span>2022 - 2026</span></div>
+  <div class="resume-entry__heading"><strong>Bachelor of Engineering in Electronic Information Engineering, Huazhong University of Science and Technology</strong><span>2022 - 2026</span></div>
   <p>Ranked 1st out of 20 students. Selected coursework includes Machine Learning, Software Engineering, Intelligent Robotics, Deep Learning, and C Programming.</p>
 </div>
+
+## Publications
+{: #publications}
+
+{% comment %}Publication entries will be added here.{% endcomment %}
 
 ## Research Experience
 {: #research}
@@ -48,7 +53,8 @@ My interests lie at the intersection of computer vision, acoustic intelligence, 
 
 <div class="resume-entry">
   <div class="resume-entry__heading"><strong>Research Intern, Moqi Intelligence (Remote)</strong><span>Dec. 2025 - Jun. 2026</span></div>
-  <p>Studied embodied world-action models, including Cosmos Policy, DreamZero, Fast-WAM, and Motus. Developed standardized data pipelines for CALVIN and RoboTwin, corrected temporal alignment issues in the source data, and reproduced VPP and Ge-act baselines. Evaluated latent representations across Transformer depths and denoising schedules, optimized training with mixed precision, model compilation, KV caching, and pinned-memory data loading, and established a RoboTwin2.0 simulation benchmark that achieved a 92% average task success rate.</p>
+  <p>Extended the Genie Envisioner/GE-Act codebase for action-conditioned world modeling and robotic manipulation. Built LeRobot-compatible multi-view data pipelines for CALVIN, RoboTwin2.0, and RoboDojo with relative joint actions, six-frame observation histories, 17-frame future sequences, and 102-step action chunks. Diagnosed and corrected an off-by-one indexing error between state, action, and future-video supervision, and aligned validation sampling with the corrected training contract.</p>
+  <p>Developed action-safe joint video-action training with history-only action cross-attention, causal video masking, terminal-hold handling at episode boundaries, and cosine-scheduled replacement of ground-truth conditions with model-generated action proposals. Added deployment-aligned two-step action rollout, controllable video-to-action gradient flow, action-intervention experiments, and aligned/sliding-window FVD evaluation. Optimized distributed training with bfloat16, TF32, DeepSpeed ZeRO-2, metadata caching, and data-loader tuning, and established a RoboTwin2.0 simulation benchmark with a 92% average task success rate.</p>
 </div>
 
 ## Honors and Awards
@@ -59,7 +65,3 @@ My interests lie at the intersection of computer vision, acoustic intelligence, 
 - National Third Prize, 16th Lanqiao Cup National Software and Information Technology Competition
 - Provincial Second Prize, 10th Huawei Software Elite Challenge
 - National Scholarship; HUST Outstanding Student Model; HUST Distinguished Undergraduate; HUST Outstanding Graduate
-
-## Technical Background
-
-Programming languages and systems: C, Python, Java, Linux, and Git. Machine learning experience includes computer vision, self-supervised learning, weakly supervised detection, acoustic anomaly detection, and speaker recognition. Familiar with the Diffusers ecosystem and AI-assisted software development workflows. English proficiency: CET-6, score 605.
