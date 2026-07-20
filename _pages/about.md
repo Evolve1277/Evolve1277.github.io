@@ -65,6 +65,5 @@ Sooner or later.
 
 <div class="resume-entry">
   <div class="resume-entry__heading"><strong>Research Intern, Moqi Intelligence (Remote)</strong><span>Dec. 2025 - Jun. 2026</span></div>
-  <p>Extended Genie Envisioner/GE-Act into an action-conditioned world-action modeling framework for robotic manipulation. Identified and corrected state-action-video misalignment, and introduced an action-safe joint training scheme that progressively replaces ground-truth conditions with model-generated actions while preserving causal history and stable gradient flow.</p>
-  <p>Developed deployment-aligned rollout and action-intervention evaluation for RoboTwin2.0 and RoboDojo. The resulting system achieved a 92% average task success rate on RoboTwin2.0.</p>
+  <p>Based on GE-Act, I repurposed the video model as a world-modeling module used only during training, achieving state-of-the-art inference latency and near-state-of-the-art success rates on RoboTwin.</p>
 </div>

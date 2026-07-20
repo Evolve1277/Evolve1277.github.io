@@ -62,6 +62,5 @@ author_profile: true
 
 <div class="resume-entry">
   <div class="resume-entry__heading"><strong>墨奇智能（远程），研究实习生</strong><span>2025.12 - 2026.06</span></div>
-  <p>面向机器人操作，将 Genie Envisioner/GE-Act 扩展为动作条件世界-动作建模框架。定位并修复状态、动作与视频监督之间的时序错位问题，提出动作安全的联合训练方案，在保持因果历史约束与稳定梯度流的同时，逐步以模型预测动作替代真实动作条件。</p>
-  <p>完善面向 RoboTwin2.0 与 RoboDojo 的部署一致滚动预测和动作干预评测，最终在 RoboTwin2.0 上取得 92% 的平均任务成功率。</p>
+  <p>基于 GE-Act，创新性地将视频模型改造为仅在训练阶段启用的世界模型模块，推理延迟达到 SOTA 水平，RoboTwin 成功率接近 SOTA。</p>
 </div>
