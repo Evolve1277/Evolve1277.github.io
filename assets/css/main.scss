@@ -68,6 +68,19 @@ html {
   scroll-behavior: smooth;
 }
 
+.greedy-nav a {
+  margin-left: 0.65rem;
+  margin-right: 0.65rem;
+}
+
+.masthead__menu-item {
+  font-size: 0.9em;
+}
+
+.masthead__menu-item--lg {
+  padding-right: 0.75rem;
+}
+
 .page__content h1 {
   margin-top: 1.5em;
   padding-bottom: 0.4em;

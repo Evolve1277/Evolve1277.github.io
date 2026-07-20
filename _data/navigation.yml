@@ -6,16 +6,16 @@ main_en:
   - title: "Education"
     url: /#education
 
-  - title: "Honors and Awards"
+  - title: "Honors & Awards"
     url: /#honors-and-awards
 
   - title: "Publications"
     url: /#publications
 
-  - title: "Research Experience"
+  - title: "Research"
     url: /#research-experience
 
-  - title: "Industry Research Experience"
+  - title: "Industry Experience"
     url: /#industry-research-experience
 
 main_zh:
