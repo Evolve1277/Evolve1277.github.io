@@ -37,3 +37,40 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+.profile-lead {
+  max-width: 48rem;
+  font-size: 1.16em;
+  line-height: 1.8;
+}
+
+.resume-entry {
+  padding: 1.2rem 0 0.4rem;
+  border-top: 1px solid var(--global-border-color);
+}
+
+.resume-entry__heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  line-height: 1.5;
+}
+
+.resume-entry__heading span {
+  flex: 0 0 auto;
+  color: var(--global-text-color-light);
+  font-size: 0.88em;
+  white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+  .resume-entry__heading {
+    display: block;
+  }
+
+  .resume-entry__heading span {
+    display: block;
+    margin-top: 0.35rem;
+  }
+}
