@@ -1,10 +1,19 @@
-# Navigation for the personal site.
+# Single-page academic navigation.
 main:
-  - title: "Home"
-    url: /
-
-  - title: "Research"
-    url: /#research
+  - title: "About Me"
+    url: /#about-me
 
   - title: "Publications"
     url: /#publications
+
+  - title: "Research Experience"
+    url: /#research-experience
+
+  - title: "Honors and Awards"
+    url: /#honors-and-awards
+
+  - title: "Education"
+    url: /#education
+
+  - title: "Industry Experience"
+    url: /#industry-research-experience

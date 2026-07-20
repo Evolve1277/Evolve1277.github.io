@@ -26,9 +26,9 @@ author:
   avatar           : "profile.jpg"
   name             : "Wenbin Wu"
   pronouns         : # example: "she/her"  
-  bio              : "Master of Engineering student at HUST working on computer vision, acoustic intelligence, and embodied AI."
+  bio              : "Master of Engineering student at Huazhong University of Science and Technology"
   location         : "Wuhan, China"
-  employer         : "Huazhong University of Science and Technology"
+  employer         :
   uri              : # URL
   email            : "1277217687@qq.com"
 
