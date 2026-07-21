@@ -31,11 +31,11 @@ My research focuses on action-conditioned world models, learning policies from m
 # Honors and Awards
 {: #honors-and-awards}
 
+- National Scholarship; HUST Outstanding Student Model; HUST Distinguished Undergraduate; HUST Outstanding Graduate
 - National Grand Prize, 19th Challenge Cup National Undergraduate Extracurricular Academic Science and Technology Competition (second-listed)
 - National Second Prize, 9th Huawei ICT Competition
 - National Second Prize, 18th Chinese Collegiate Computing Competition
 - National Third Prize, 16th Lanqiao Cup National Software and Information Technology Competition
-- National Scholarship; HUST Outstanding Student Model; HUST Distinguished Undergraduate; HUST Outstanding Graduate
 
 # Publications
 {: #publications}
@@ -52,7 +52,7 @@ Sooner or later.
 
 <div class="resume-entry">
   <div class="resume-entry__heading"><strong>Acoustic Anomaly Detection for Converter Transformers</strong><span>Sep. 2024 - Jun. 2025</span></div>
-  <p>State Grid collaborative project. Contributed to dual-path environmental noise separation, unsupervised acoustic anomaly detection, and few-shot fault classification algorithms; the project resulted in an SCI-indexed publication in <i>Electric Power Systems Research</i>.</p>
+  <p>State Grid collaborative project. Contributed to dual-path environmental noise separation, unsupervised acoustic anomaly detection, and few-shot fault classification algorithms; the project resulted in an SCI-indexed publication in the JCR Q2 journal <i>Electric Power Systems Research</i>.</p>
 </div>
 
 <div class="resume-entry">

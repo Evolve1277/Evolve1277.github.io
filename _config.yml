@@ -25,6 +25,7 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Wenbin Wu"
+  name_zh          : "吴文彬"
   pronouns         : # example: "she/her"  
   bio              : "Master of Engineering student at Huazhong University of Science and Technology"
   bio_zh           : "华中科技大学电子信息专业工程硕士研究生"

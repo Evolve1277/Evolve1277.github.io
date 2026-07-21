@@ -4,10 +4,12 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 {% assign is_zh = false %}
+{% assign author_name = author.name %}
 {% assign author_bio = author.bio %}
 {% assign author_location = author.location %}
 {% if page.lang contains "zh" %}
   {% assign is_zh = true %}
+  {% assign author_name = author.name_zh | default: author.name %}
   {% assign author_bio = author.bio_zh | default: author.bio %}
   {% assign author_location = author.location_zh | default: author.location %}
 {% endif %}
@@ -16,14 +18,14 @@
 
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
+	<img src="{{ author.avatar }}" alt="{{ author_name }}"  fetchpriority="high" />
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
+	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author_name }}"  fetchpriority="high" />
     {% endif %}
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
+    <h3 class="author__name">{{ author_name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author_bio %}<p class="author__bio">{{ author_bio }}</p>{% endif %}
   </div>
